@@ -5,6 +5,9 @@ metadata:
   name: productpage-v1
 spec:
   template:
+    metadata:
+      annotations:
+        kubectl.kubernetes.io/restartedAt: "2022-07-20T11:12:54-05:00"
     spec:
       containers:
       - name: productpage
