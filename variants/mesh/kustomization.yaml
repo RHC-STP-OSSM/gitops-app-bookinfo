@@ -6,3 +6,6 @@ namespace: bookinfo-test
 resources:
 - virtualservice.yaml
 - gateway.yaml
+- gateway-secure.yaml
+- virtual-service-secure.yaml
+- gateway-secure-mtls.yaml
